@@ -12,7 +12,9 @@
   --shape-transparency: #ffffff8f;
   --text-color-primary: #313131; 
   --text-color-secondary: #6c6c6c;
-  --heading1-size: 32px;
-  --paragraph-md: 14px; 
-  --paragraph-sm: 12px;
+  --font-family:"Poppins", sans-serif;
+  --text-lg: bold 32px/125% var(--font-family);
+  --text: 16px/150% var(--font-family);
+  --text-md: 14px/170% var(--font-family); 
+  --text-sm: 12px/170% var(--font-family);
 }
