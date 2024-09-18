@@ -19,4 +19,28 @@
   --text-sm: 12px/170% var(--font-family);
 }
 
+body { 
+  font: var(--text);
+  color: var(--text-color-secondary);
+  background-color: var(--background-color);
+}
+a { 
+  text-decoration: none;
+  color: inherit;
+}
 
+a:hover { 
+  color: var(--brand-color);
+  text-decoration: underline;
+  transition: 500ms;
+}
+
+.container { 
+  padding-inline: 32px;
+  max-width: 100%;
+  margin-inline: auto;
+}
+
+.bg-surface-color{ 
+  background-color: var(--surface-color);
+}
