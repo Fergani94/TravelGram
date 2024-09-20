@@ -1,0 +1,15 @@
+footer { 
+  display:flex;
+  justify-content:space-between;
+  padding-inline: 32px;
+}
+
+footer ul { 
+  display: flex;
+  
+  
+}
+
+footer ul li { 
+  padding-inline: 16px;
+}
